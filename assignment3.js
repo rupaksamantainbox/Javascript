@@ -1,6 +1,6 @@
 //Question 1:
 
-/*const ordersList = [
+const ordersList = [
     {name:"Laptop",price:120000},
     {name:"Mobile",price:70000},
     {name:"Mobile Charger",price:1500},
@@ -10,23 +10,23 @@ let sum = 0;
 ordersList.forEach((data) => {
     sum = sum + data.price;
 });
-console.log("Total Price :"+ sum);*/
+console.log("Total Price :"+ sum);
 
 
 //Question 2:
 
-/*function randomNumberGenerator(){
+function randomNumberGenerator(){
     let random = Math.floor(Math.random()*10)
     console.log(random)
 }
 setInterval(function(){
     randomNumberGenerator()
-},2000)*/
+},2000)
 
 
 //Question 3:
 
-/*let expenses = [
+let expenses = [
     {amount:100,category:"Utilities"},
     {amount:200,category:"Groceries"},
     {amount:50,category:"Entertaintment"}
@@ -37,12 +37,12 @@ let expensesWithTax = expenses.map((expenses) => {
     return {...expenses ,tax:tax};
 });
 
-console.log(expensesWithTax)*/
+console.log(expensesWithTax)
 
 
 //Question 4:
 
-/*let expenses = [
+let expenses = [
     {amount:100,category:"Utilities"},
     {amount:200,category:"Groceries"},
     {amount:50,category:"Entertaintment"}
@@ -51,23 +51,23 @@ console.log(expensesWithTax)*/
 let expensesForGroceries = expenses.filter((expenses) =>{
     return expenses.category == "Groceries"
 });
-console.log(expensesForGroceries);*/
+console.log(expensesForGroceries);
 
 
 //Question 5:
 
-/*let expenses = [
+let expenses = [
     {amount:100,category:"Utilities"},
     {amount:200,category:"Groceries"},
     {amount:50,category:"Entertaintment"}
 ];
 let totalExpenses = expenses.reduce((total,expenses) => total + expenses.amount,0)
-console.log(totalExpenses)*/
+console.log(totalExpenses)
 
 
 //Question 6:
 
-/*let expenses = [
+let expenses = [
     {amount:100,category:"Utilities"},
     {amount:200,category:"Groceries"},
     {amount:50,category:"Entertaintment"}
@@ -80,22 +80,22 @@ function expenseCategory(expenses){
     }
 }
 let categoryWiseExpense = expenses.map((expenses) => expenseCategory(expenses));
-console.log(categoryWiseExpense)*/
+console.log(categoryWiseExpense)
 
 //Question 7:
 
-/*let originalNumbers = [2,5,8,10,3]
+let originalNumbers = [2,5,8,10,3]
 
 originalNumbers.forEach((Number,index,array) => {
     array[index] = Number * 2
 });
 
-console.log(originalNumbers)*/
+console.log(originalNumbers)
 
 
 //Question 8:
 
-/*let originalNumbers = [2,5,8,10,3]
+let originalNumbers = [2,5,8,10,3]
 let evenNumbers = []
 
 originalNumbers.forEach((number) =>{
@@ -103,7 +103,7 @@ originalNumbers.forEach((number) =>{
         evenNumbers.push(number);
     }
 })
-console.log(evenNumbers)*/
+console.log(evenNumbers)
 
 
 
