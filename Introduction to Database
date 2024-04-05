@@ -1,0 +1,50 @@
+1)What  is  database ?  Explain wan an example on why should we need a database. 
+Database is an organized collection of data, stored and accessed electronically. 
+We are  used database to store and manage large amounts of  data, and they can be used to support a wide range of activities, including data storage, data analysis, and data management.
+There are many different types of databases, including relational databases, object-oriented databases, and NoSQL databases.
+
+2)Write a short note on file Posed storage system. Explain the major challenges of a file based storage system
+A file-based data management system (also called a file system) is a type of software that allows users to access and organize small groups of data. It is 	usually integrated into a computer's operating system and is responsible for storing and retrieving files from a storage medium, such as a hard disk or flash drive.
+Challenges of File based System
+The File based system is limited to a smaller size and cannot store 	largeamounts of data.There may be redundant data in the file based system as it does not have a complex mechanism to get rid of it.The data is not very secure in a file based system and may be corrupted or destroyed.
+
+3.What is DBMS? What was the need for DBMS?
+Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database.
+Needs for DBMS
+  1.Data Organization and Management
+  2.Data Security and Privacy
+  3.Data Integrity and Consistency
+  4.Concurrent Data Access
+  5.Data Analysis and Reporting
+  6.Scalability and Flexibility
+  7.Cost-Effectiveness
+
+4.Explain 5 challenges of file-based storage system which was tackled by DBMS?
+  1.Data Redundancy: 
+  2.Data Inconsistency
+  3.Difficulty in Accessing Data
+  4.Limited Data Sharing
+  5.Integrity Problems
+  6.Atomicity Problems
+  7.Concurrent Access Anomalies
+  8.Security Problems
+
+5.List out  the different types of classification in DBMS and explain
+  We can categorize DBMS's based on the data model: 
+  1)relational, 2) object, 3)hierarchical, 4)network
+  6. What lathe significance at Data Modelling and explain the types of Data Modelling?
+  Data modeling is the process of creating a visual representation of an information system to communicate connections between data points and structures.
+  The three primary data model types are-
+  1)relational,
+  2)dimensional, 
+  3)and entity-relationship (E-R)
+
+6.Explain 3 schema architecture along with its advantages? 
+  External/ View level
+  This is the highest level of database abstraction. It includes a number of external schemas or user views. This level provides different views of the same database for a specific user or a group of users. An external view provides a powerful and flexible security mechanism by hiding the parts of the database from a particular user.
+  Conceptual or Logical level
+  This level describes the structure of the whole database. It acts as a middle layer between the physical storage and user view. It explains what data to be stored in the database, what the data types are, and what relationship exists among those data. There is only one conceptual schema per database.
+  This level describes the structure of the whole database. It acts as a middle layer between the physical storage and user view. It explains what data to be stored in the database, what the data types are, and what relationship exists among those data. There is only one conceptual schema per database.
+  Internal or Physical level
+  This is the lowest level of database abstraction. It describes how the data is stored in the database and provides the methods to access data from the database. It allows viewing the physical representation of the database on the computer system.
+  The interface between the conceptual and internal schema identifies how an element in the conceptual schema is stored and how it may be accessed. It is one which is closest to physical storage. The internal schema not only defines different stored record types, but also specifies what indices exist, how stored fields are represented.
